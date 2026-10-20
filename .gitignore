@@ -1,0 +1,14 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build outputs
+out/
+build/
+target/
+
+# Log files and OS specifics
+*.log
+.DS_Store
