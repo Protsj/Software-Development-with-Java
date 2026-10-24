@@ -10,8 +10,7 @@ import java.util.List;
 
 public abstract class TransactionCSVReader {
     public static List<Transaction> readTransactions(String filePath) {
-        List<String> lines = readLinesFromUrl(filePath);
-        return parseTransactions(lines);
+        return parseTransactions(readLinesFromUrl(filePath));
     }
 
     private static List<String> readLinesFromUrl(String filePath) {
