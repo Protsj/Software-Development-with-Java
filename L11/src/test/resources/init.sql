@@ -1,0 +1,3 @@
+CREATE TABLE tickets (
+    id BIGINT PRIMARY KEY
+);
